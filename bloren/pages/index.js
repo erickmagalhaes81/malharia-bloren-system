@@ -1,3 +1,12 @@
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+
 export default function Home() {
-  return <h1>Bem-vindo ao sistema da Malharia Bloren</h1>
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('/login'); // você pode trocar por "/painel" se quiser que vá direto pro painel
+  }, []);
+
+  return null;
 }
