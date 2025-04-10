@@ -1,1 +1,3 @@
-<h1>Custos de Produção</h1>
+export default function Custos() {
+  return <h1>Página de Custos</h1>;
+}
