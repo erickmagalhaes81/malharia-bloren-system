@@ -1,1 +1,3 @@
-<h1>Financeiro</h1>
+export default function Financeiro() {
+  return <h1>Página Financeiro</h1>;
+}
