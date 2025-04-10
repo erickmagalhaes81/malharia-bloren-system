@@ -14,7 +14,7 @@ export default function Login() {
       await signInWithEmailAndPassword(auth, email, senha);
       router.push('/dashboard');
     } catch (error) {
-      alert('Erro ao fazer login: ' + error.message);
+      alert('Erro ao fazer login.');
     }
   };
 
@@ -22,16 +22,8 @@ export default function Login() {
     <div style={{ padding: 40 }}>
       <h2>Login - Malharia Bloren</h2>
       <form onSubmit={handleLogin}>
-        <input
-          type="email"
-          placeholder="E-mail"
-          onChange={(e) => setEmail(e.target.value)}
-        /><br /><br />
-        <input
-          type="password"
-          placeholder="Senha"
-          onChange={(e) => setSenha(e.target.value)}
-        /><br /><br />
+        <input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} /><br />
+        <input type="password" placeholder="Senha" onChange={(e) => setSenha(e.target.value)} /><br />
         <button type="submit">Entrar</button>
       </form>
     </div>

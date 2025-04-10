@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0xykjWd2g9kYatR6obnN145KJgBRorj0",
+  apiKey: "AIzaSyD0xjydg2YktR6obnI4S1KJgBRorj0",
   authDomain: "sistema-malharia-bloren.firebaseapp.com",
   projectId: "sistema-malharia-bloren",
   storageBucket: "sistema-malharia-bloren.appspot.com",
