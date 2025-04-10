@@ -1,3 +1,8 @@
 export default function Financeiro() {
-  return <h1>Página Financeiro</h1>;
+  return (
+    <div style={{ padding: 40 }}>
+      <h2>Financeiro - Malharia Bloren</h2>
+      <p>Esta página será usada para gerenciar o financeiro da empresa.</p>
+    </div>
+  );
 }
