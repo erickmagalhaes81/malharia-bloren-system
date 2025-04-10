@@ -8,7 +8,6 @@ const firebaseConfig = {
   storageBucket: "sistema-malharia-bloren.firebasestorage.app",
   messagingSenderId: "631847379577",
   appId: "1:631847379577:web:e9ee8c5b5249a43ee72aa8",
-  measurementId: "G-WNQYKXL4Z2"
 };
 
 const app = initializeApp(firebaseConfig);
