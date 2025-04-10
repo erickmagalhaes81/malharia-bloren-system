@@ -1,7 +1,8 @@
 export default function Custos() {
   return (
-    <div>
-      <h1>Página de Custos em construção</h1>
+    <div style={{ padding: 40 }}>
+      <h2>Custos de Produção - Malharia Bloren</h2>
+      <p>Utilize esta página para cadastrar e analisar os custos de produção.</p>
     </div>
   );
 }
