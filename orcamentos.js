@@ -1,7 +1,8 @@
 export default function Orcamentos() {
   return (
-    <div>
-      <h1>Página de Orçamentos em construção</h1>
+    <div style={{ padding: 40 }}>
+      <h2>Orçamentos - Malharia Bloren</h2>
+      <p>Área destinada à criação e visualização de orçamentos.</p>
     </div>
   );
 }
