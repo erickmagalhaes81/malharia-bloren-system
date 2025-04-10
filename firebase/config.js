@@ -1,9 +1,15 @@
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDxXdyWdZgQykYaR6obhI45IKJgBRorj0",
+  apiKey: "AIzaSyDxXdyWd2gKYaR6obhI45IKJgBRorj0",
   authDomain: "sistema-malharia-bloren.firebaseapp.com",
   projectId: "sistema-malharia-bloren",
   storageBucket: "sistema-malharia-bloren.appspot.com",
   messagingSenderId: "631847397577",
   appId: "1:631847397577:web:9ee8c5b5249a43ee72aa8",
-  measurementId: "G-WNQYKXL4Z2"
+  measurementId: "G-WNQYKK4LZ2" // opcional, pode remover se não for usar Analytics
 };
+
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
