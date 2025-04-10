@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyD0XjyWdz9gKYatR6obN14SIKJgBRorj0",
+  authDomain: "sistema-malharia-bloren.firebaseapp.com",
+  projectId: "sistema-malharia-bloren",
+  storageBucket: "sistema-malharia-bloren.appspot.com",
+  messagingSenderId: "631847379577",
+  appId: "1:631847379577:web:9ee8c5b5249a43ee72aa8"
 };
 
 const app = initializeApp(firebaseConfig);
