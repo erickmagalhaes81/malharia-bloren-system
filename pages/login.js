@@ -12,9 +12,9 @@ export default function Login() {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, senha);
-      router.push('/dashboard');
+      router.push('/dashboard'); // ou a rota desejada após login
     } catch (error) {
-      alert('Erro ao fazer login.');
+      alert("Erro ao fazer login: " + error.message);
     }
   };
 
@@ -29,3 +29,4 @@ export default function Login() {
     </div>
   );
 }
+
